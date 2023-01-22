@@ -1,16 +1,14 @@
-<h1>JWipe - Disk Sanitization</h1>
-
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
+<h1>Tic Tac Toe</h1>
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+This project is a Tic Tac Toe game between two human players. It takes place in the console. 
 <br />
 
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+- <b>Python</b> 
+- <b>Pycharm</b>
 
 <h2>Environments Used </h2>
 
@@ -19,33 +17,30 @@ Project consists of a simple PowerShell script that walks the user through "zero
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Starting Output: <br/>
+<img src="https://user-images.githubusercontent.com/123213606/213895772-60a7a1f6-a373-4a34-ba37-db2d9b9cc4b1.png"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+First Move:  <br/>
+<img src="https://user-images.githubusercontent.com/123213606/213895901-9977035e-d625-4a9e-ab07-0cc3e1fb113f.png"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Second Move: <br/>
+<img src="https://user-images.githubusercontent.com/123213606/213895919-eeaf68da-94a0-4a6b-9f61-65a01cd75e3b.png"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Win:  <br/>
+<img src="https://user-images.githubusercontent.com/123213606/213895945-74ed4d05-d46b-4b62-9a61-d2ef85203593.png"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Tie:  <br/>
+<img src="https://user-images.githubusercontent.com/123213606/213896077-f82027b5-a30b-4b13-9fb3-029ae7f49920.png"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+If repeat square choosen:  <br/>
+<img src="https://user-images.githubusercontent.com/123213606/213896054-f69be115-848c-4ed7-a195-b0da486bd5a7.png"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 
 <!--
  ```diff
